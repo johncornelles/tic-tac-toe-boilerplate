@@ -98,3 +98,17 @@ a{
         font-size: 35px;
     }
 }
+
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: red;
+}
